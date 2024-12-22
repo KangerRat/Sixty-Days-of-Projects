@@ -22,9 +22,9 @@ public class BudgetTrackerPlus {
         double remainBudget = income - expenses;
         System.out.printf("Your remain budget is $%.2f dollars.", remainBudget);
         double perRent = (rent / income) * 100;
-        double perGroceries = (groceries / income)  * 100;;
-        double perTransportation = (transportation / income) * 100;;
-        double perEntertainment = (entertainment / income) * 100;;
+        double perGroceries = (groceries / income)  * 100;
+        double perTransportation = (transportation / income) * 100;
+        double perEntertainment = (entertainment / income) * 100;
         System.out.println("\n******Budget Summary******");
         System.out.printf("Spent $%.2f on Rent (%.2f%% of income)\n", rent, perRent);
         System.out.printf("Spent $%.2f on Groceries (%.2f%% of income)\n", groceries, perGroceries);
